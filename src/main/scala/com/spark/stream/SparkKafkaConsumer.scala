@@ -20,8 +20,8 @@ object SparkKafkaConsumer {
     val conf = new SparkConf().setMaster("local[*]").setAppName("SparkKafkaConsumer")
     val ssc = new StreamingContext(conf, Seconds(10))
 
-    val AWS_ACCESS_KEY = "AKIAJQINR3RPRJWRCJLA"
-    val AWS_SECRET_KEY = "BtkURrGgiyfEbM2nNKBURFfOplFtEkRZAg9pQyU9"
+    val AWS_ACCESS_KEY = "****"
+    val AWS_SECRET_KEY = "****"
 
     //val yourAWSCredentials = new BasicAWSCredentials(AWS_ACCESS_KEY, AWS_SECRET_KEY)
 
